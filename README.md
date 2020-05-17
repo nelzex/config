@@ -11,3 +11,7 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+## karabiner keybindings
+
+remap capslock to escape
