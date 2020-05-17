@@ -1,0 +1,56 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "editor.semanticHighlighting.enabled": false,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Operator Mono,Menlo, Monaco,'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Operator Mono,Menlo, Monaco, monospace",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.activityBar.visible": true,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "html.format.contentUnformatted": "",
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.settings.editor": "json",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.easymotionMarkerFontFamily": "Menlo",
+  "vim.easymotionMarkerFontSize": "14",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "workbench.colorTheme": "Night Owl"
+}
