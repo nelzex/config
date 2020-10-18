@@ -1,13 +1,18 @@
 {
   "window.zoomLevel": 0,
-  "editor.fontSize": 16,
-  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "python.pythonPath": "/usr/local/bin/python3",
-  "editor.fontLigatures": true,
-  "editor.fontFamily": "Operator Mono,Menlo, Monaco,'Courier New', monospace",
-  "terminal.integrated.fontFamily": "Operator Mono,Menlo, Monaco, monospace",
+  "editor.fontLigatures": false,
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 16,
+  "editor.fontWeight": 400,
+  "editor.fontFamily": "Menlo,Fira Code",
+  "editor.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "Menlo,Fira Code",
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.fontSize": 14,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
   "workbench.activityBar.visible": true,
   "editor.tabSize": 2,
@@ -17,11 +22,20 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
+  "prettier.disableLanguages": [],
   "html.format.contentUnformatted": "",
+  "prettier.printWidth": 175,
   "editor.formatOnSave": true,
   "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "workbench.settings.editor": "json",
   "vim.easymotion": true,
@@ -52,5 +66,16 @@
     "<C-a>": false,
     "<C-f>": false
   },
-  "workbench.colorTheme": "Night Owl"
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.renderWhitespace": "none",
+  "java.semanticHighlighting.enabled": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript", "javascriptreact"],
+  "git.suggestSmartCommit": false,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  }
 }
